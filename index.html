@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
         content="A demonstration of HTML5 semantic structure and accessibility.">
 
     <title>HTML5 Semantic Webpage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -43,6 +45,8 @@
             <p>
                 I am learning full-stack development and building
                 accessible and well-structured websites.
+                <button id="skillsButton">Show My Skills</button>
+                <p id="skillsOutput"></p>
             </p>
         </section>
 
@@ -63,6 +67,13 @@
                     development as part of my internship.
                 </p>
             </article>
+        <article>
+             <h3>HTML5 & CSS</h3>
+             <p>
+                Learning semantic HTML, Flexbox, Grid, responsive design,
+                and modern CSS techniques.
+            </p>
+          </article>
         </section>
 
         <section id="resources" aria-labelledby="resources-heading">
@@ -86,7 +97,7 @@
     <footer id="contact">
         <p>&copy; 2026 My HTML5 Semantic Webpage. All rights reserved.</p>
     </footer>
-
+     <script src="script.js"></script>
 </body>
 
 </html>
