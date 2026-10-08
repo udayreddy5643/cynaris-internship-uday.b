@@ -1,5 +1,7 @@
 /* CSS Fundamentals - Week 1 Day 2 */
 
+/* ---------- General Page Styling ---------- */
+
 * {
     box-sizing: border-box;
 }
@@ -15,6 +17,8 @@ body {
     background-color: #f4f4f4;
     color: #222;
 }
+
+/* ---------- Header & Navigation ---------- */
 
 header {
     background-color: #222;
@@ -39,6 +43,7 @@ nav ul {
 }
 
 nav a {
+    display: inline-block;
     color: white;
     text-decoration: none;
     padding: 8px 12px;
@@ -50,6 +55,8 @@ nav a:hover {
     background-color: #555;
     transform: translateY(-2px);
 }
+
+/* ---------- Main Content ---------- */
 
 main {
     max-width: 1200px;
@@ -64,6 +71,8 @@ section {
 section h2 {
     margin-bottom: 10px;
 }
+
+/* ---------- Projects Grid ---------- */
 
 #projects {
     display: grid;
@@ -89,6 +98,8 @@ section h2 {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* ---------- Aside ---------- */
+
 aside {
     background-color: white;
     padding: 20px;
@@ -96,12 +107,16 @@ aside {
     border-radius: 8px;
 }
 
+/* ---------- Footer ---------- */
+
 footer {
     background-color: #222;
     color: white;
     text-align: center;
     padding: 20px;
 }
+
+/* ---------- Responsive Design ---------- */
 
 @media (max-width: 768px) {
     #projects {
